@@ -1,0 +1,31 @@
+-
+    var myFullName = 'Vladislav Ciobanu'
+    var myJobTitle = 'junior web developer'
+    var socialList = [
+        {icon: 'facebook2', url: 'https://www.facebook.com/cioban.vladislav'},
+        {icon: 'twitter', url: 'https://twitter.com/CiobanuVladisl1'},
+        {icon: 'youtube2', url: 'https://www.youtube.com/user/CEnuSHarIK'},
+        {icon: 'skype', url: 'https://secure.skype.com/portal/overview'},
+        {icon: 'yahoo', url: 'https://fr.yahoo.com'},
+        {icon: 'html-five', url: 'httfile-word//cnvvcvlad.github.io/w3schools-replica1'},
+        {icon: 'file-word', url: 'https://cnvvcvlad.github.io/w3schools-replica1'},
+        {icon: 'stackoverflow', url: 'https://stackoverflow.com/users/10986541/cenusharik'},
+        {icon: 'linkedin', url: 'https://www.linkedin.com/in/ciobanu-vladislav-88025231/'},
+        {icon: 'wordpress', url: 'https://wordpress.com/stats/day/cenusharik.wordpress.com'},
+        {icon: 'whatsapp', url: 'https://web.whatsapp.com/'},
+        {icon: 'mail4', url: 'https://myaccount.google.com/'},
+        {icon: 'mobile', url: ''},
+        {icon: 'calendar', url: ''},
+        {icon: 'map2', url: ''},
+        {icon: 'location2', url: ''},
+    ]
+#landing-page        
+.landing-page
+    .landing-page__wrapper
+        h1.landing-page__name=myFullName
+        h2.landing-page__title=myJobTitle 
+        url.landing-page__social 
+            each social in socialList
+                li.landing-page__item
+                    label.landing-page__label(for="")
+                        span(class=`my-cv__icon--${social.icon}`) 

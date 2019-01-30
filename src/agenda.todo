@@ -3,10 +3,16 @@ Todo list:
 ✔ clean _partial from previous lesson @done (1/23/2019, 7:48:39 PM)
 ✔ use icomoon.io to generate custom font @done (1/24/2019, 12:25:27 PM)
 ✔ download font files and font source into _asset/font (commit) @done (1/24/2019, 12:46:14 PM)
-☐ create layout/page
-☐ add border-box and fluid typography
-☐ add reset css
-☐ import font files (commit)
-☐ create full name variable and implement into structure
+✔ create layout/page @done (1/24/2019, 1:11:38 PM)
+✔ add border-box and fluid typography @done (1/24/2019, 1:57:19 PM)
+✔ add reset css @done (1/25/2019, 12:30:54 PM)
+✔ import font files (commit) @done (1/25/2019, 12:30:59 PM)
+✔ create full name variable and implement into structure @done (1/25/2019, 1:44:19 PM)
 ☐ create title variable and implement into structure
 ☐ create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github etc) (commit)
+
+# Landing page (part 2)
+☐ create landing page labels into social > social-item > social-label
+☐ create input box-radio list next to box-message which contains a box-link
+☐ create a reset input radio followed by box-message and box-header which contains a box-info and a box-close
+☐ style landing page 
