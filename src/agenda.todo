@@ -8,11 +8,15 @@ Todo list:
 ✔ add reset css @done (1/25/2019, 12:30:54 PM)
 ✔ import font files (commit) @done (1/25/2019, 12:30:59 PM)
 ✔ create full name variable and implement into structure @done (1/25/2019, 1:44:19 PM)
-☐ create title variable and implement into structure
-☐ create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github etc) (commit)
+✔ create title variable and implement into structure @done (1/30/2019, 7:49:16 PM)
+✔ create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github etc) (commit) @done (1/30/2019, 7:49:30 PM)
 
-# Landing page (part 2)
-☐ create landing page labels into social > social-item > social-label
+# Landing page (part 2) - Finish HTML strucuture and start basic styling
+✔ create landing page labels into social > social-item > social-label @done (1/30/2019, 7:51:16 PM)
 ☐ create input box-radio list next to box-message which contains a box-link
-☐ create a reset input radio followed by box-message and box-header which contains a box-info and a box-close
+☐ group input type radio 
+☐ link label for attribute to input id attribute
+☐ create a reset input radio followed by box-message and box-header which contains a box-info and a box-close label 
+
+# Landing page (part 3)
 ☐ style landing page 
