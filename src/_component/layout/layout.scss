@@ -2,6 +2,11 @@
     box-sizing: border-box; 
 }
 
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 html {
     // Fluid typography
     // Values in calc() explained
