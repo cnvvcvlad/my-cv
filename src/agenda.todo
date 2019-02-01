@@ -24,10 +24,25 @@ Todo list:
 - 100% height trick
 - text transformation
 
-✔ make the .landing-page full height @done (1/30/2019, 9:34:07 PM)
+✔ make the .landing-page full height @done (1/31/2019, 3:17:03 PM)
 ✔ html and body full height and font size @done (1/30/2019, 9:34:30 PM)
 ✔ .landing-page__wrapper center content @done (1/30/2019, 9:36:33 PM)
 ✔ .landing-page__name font size and UPPERCASE letters @done (1/31/2019, 3:02:04 PM)
 ✔ .landing-page__title font size and Capitalize words @done (1/31/2019, 3:05:49 PM)
 ✔ .landing-page__social horizontal align children and move away from name and title @done (1/31/2019, 3:08:30 PM)
-☐ .landing-page__label font size, color and space out
+✔ .landing-page__label font size, color and space out @done (1/31/2019, 3:11:47 PM)
+
+# Landing page (part 4) - reveal link
+- input:checked (pseudo class)
+- div + div (sibling selector)
+
+✔ test the sibling selector on .landing-page__box-message related to .landing-page__box-radio:checked @done (2/1/2019, 1:07:32 PM)
+✔ hide .landing-page__box-radio and .landing-page__box-message and show only the one next to the checked input @done (2/1/2019, 1:18:53 PM)
+✔ hide .landing-page__box-header (Click to visit) when any input that reveals a link is not checked @done (2/1/2019, 1:28:06 PM)
+✔ style .landing-page__box-body with a red rounded border, space out content and make it position relative to prepare for positioning of .landing-page__box-header and clear the blue border @done (2/1/2019, 1:39:28 PM)
+☐ position the .landing-page__box-header under the .landing-page__box-body and align the two elements inside to stick to the left and right edges.
+☐ style .landing-page__box-info and .landing-page__box-close text and add a white background. If the info text content is longer than the container show triple dots or ellipsis
+☐ make the .landing-page__box-info take all the available width and round its bottom left corner
+☐ make the bottom right corner of the .landing-page__box-close rounded
+☐ set the color of .landing-page__box-link and .landing-page__box-message to white
+☐ style .landing-page__box-link
